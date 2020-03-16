@@ -1,0 +1,65 @@
+.me{
+  .me_top{
+    padding: 50px 0 30px;
+    background-color: #11cd6e;
+    .top_content{
+      .top_content_touxiang{
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+      .no_login{
+        text-align: center;
+        margin-top: 5px;
+        color: #fff;
+        .login_text{
+          color: #fff!important;
+          background-color: transparent!important;
+          overflow: none!important;
+          display: inline-block;
+          padding: 8px;
+          font-size: 16px;
+          line-height: 15px;
+          border: 1px solid #fff;
+          margin: 8px;
+          border-radius: 3px;
+          // background-color: white;
+        }
+        .login_name{
+          color: #fff!important;
+          background-color: transparent!important;
+          overflow: none!important;
+          display: inline-block;
+          padding: 8px;
+          font-size: 16px;
+          line-height: 15px;
+          margin: 8px;
+        }
+      }
+    }
+  }
+  .me_bottom{
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px 15px;
+    .bottom_item{
+      height: 57px;
+      width: 100%;
+      line-height: 57px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+  }
+}
+
+button::after{
+  border: none!important;
+}
+
+.show{
+  display: inline-block!important;
+}
+.noshow{
+  display: none!important;
+}
